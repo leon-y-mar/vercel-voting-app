@@ -1,0 +1,44 @@
+<svg viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg-b" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1B2A6B"/>
+      <stop offset="100%" stop-color="#4B60F8"/>
+    </linearGradient>
+    <linearGradient id="circle-b" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#C1D5FF"/>
+      <stop offset="100%" stop-color="#4B60F8"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="800" height="600" fill="url(#bg-b)"/>
+
+  <!-- Decorative shapes -->
+  <circle cx="140" cy="140" r="200" fill="#C1D5FF" opacity="0.15"/>
+  <circle cx="680" cy="480" r="140" fill="#90B8FF" opacity="0.15"/>
+  <rect x="530" y="30" width="200" height="200" rx="20" fill="rgba(255,255,255,0.07)" transform="rotate(-12 630 130)"/>
+  <polygon points="60,400 140,560 0,560" fill="rgba(255,255,255,0.08)"/>
+  <circle cx="400" cy="300" r="130" fill="url(#circle-b)" opacity="0.45"/>
+
+  <!-- Dot grid texture -->
+  <g fill="white" opacity="0.05">
+    <circle cx="100" cy="100" r="3"/><circle cx="200" cy="100" r="3"/>
+    <circle cx="300" cy="100" r="3"/><circle cx="400" cy="100" r="3"/>
+    <circle cx="500" cy="100" r="3"/><circle cx="600" cy="100" r="3"/>
+    <circle cx="700" cy="100" r="3"/><circle cx="100" cy="200" r="3"/>
+    <circle cx="200" cy="200" r="3"/><circle cx="300" cy="200" r="3"/>
+    <circle cx="400" cy="200" r="3"/><circle cx="500" cy="200" r="3"/>
+    <circle cx="600" cy="200" r="3"/><circle cx="700" cy="200" r="3"/>
+    <circle cx="100" cy="400" r="3"/><circle cx="200" cy="400" r="3"/>
+    <circle cx="300" cy="400" r="3"/><circle cx="400" cy="400" r="3"/>
+    <circle cx="500" cy="400" r="3"/><circle cx="600" cy="400" r="3"/>
+    <circle cx="700" cy="400" r="3"/><circle cx="100" cy="500" r="3"/>
+    <circle cx="200" cy="500" r="3"/><circle cx="300" cy="500" r="3"/>
+    <circle cx="400" cy="500" r="3"/><circle cx="500" cy="500" r="3"/>
+    <circle cx="600" cy="500" r="3"/><circle cx="700" cy="500" r="3"/>
+  </g>
+
+  <!-- Label -->
+  <circle cx="400" cy="300" r="72" fill="rgba(0,0,0,0.22)"/>
+  <text x="400" y="320" text-anchor="middle" fill="white" font-size="72" font-family="'Helvetica Neue', Arial, sans-serif" font-weight="700" letter-spacing="-2">B</text>
+</svg>

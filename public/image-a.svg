@@ -1,0 +1,35 @@
+<svg viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg-a" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FF6B35"/>
+      <stop offset="100%" stop-color="#F7B731"/>
+    </linearGradient>
+    <linearGradient id="circle-a" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FF9F43"/>
+      <stop offset="100%" stop-color="#EE5A24"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="800" height="600" fill="url(#bg-a)"/>
+
+  <!-- Decorative shapes -->
+  <circle cx="680" cy="90" r="200" fill="#FFD166" opacity="0.25"/>
+  <circle cx="100" cy="520" r="160" fill="#EF476F" opacity="0.2"/>
+  <rect x="60" y="40" width="220" height="220" rx="24" fill="rgba(255,255,255,0.08)" transform="rotate(18 170 150)"/>
+  <polygon points="720,420 800,580 640,580" fill="rgba(255,255,255,0.1)"/>
+  <circle cx="400" cy="300" r="130" fill="url(#circle-a)" opacity="0.5"/>
+
+  <!-- Horizontal lines texture -->
+  <g opacity="0.06" stroke="white" stroke-width="1.5">
+    <line x1="0" y1="100" x2="800" y2="100"/>
+    <line x1="0" y1="200" x2="800" y2="200"/>
+    <line x1="0" y1="300" x2="800" y2="300"/>
+    <line x1="0" y1="400" x2="800" y2="400"/>
+    <line x1="0" y1="500" x2="800" y2="500"/>
+  </g>
+
+  <!-- Label -->
+  <circle cx="400" cy="300" r="72" fill="rgba(0,0,0,0.18)"/>
+  <text x="400" y="320" text-anchor="middle" fill="white" font-size="72" font-family="'Helvetica Neue', Arial, sans-serif" font-weight="700" letter-spacing="-2">A</text>
+</svg>
