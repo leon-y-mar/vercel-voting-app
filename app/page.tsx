@@ -239,10 +239,10 @@ function VotingScreen({
         {/* Header */}
         <div className="text-center mb-10">
           <h1 className="text-2xl sm:text-3xl font-bold text-gray-900 mb-2">
-            ¿Cuál es tu favorita?
+            ¿Cuál logotipo prefieres?
           </h1>
           <p className="text-gray-500 text-sm sm:text-base">
-            Elige la imagen que más te guste — un voto por dispositivo.
+            Elige el que te transmita más: Innovación. Comunidad. Producto. Tecnología. Compartir. Growth. Experimentos. Equipo. Data, etc. Solo un voto por dispositivo.
           </p>
         </div>
 
